@@ -1,0 +1,23 @@
+{
+  "name": "node_smtp_example",
+  "version": "1.0.0",
+  "description": "This is an example of how to send an email via and SMTP server using nodejs",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeff-Stapleton/node_smtp_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeff-Stapleton/node_smtp_example/issues"
+  },
+  "homepage": "https://github.com/Jeff-Stapleton/node_smtp_example#readme",
+  "dependencies": {
+    "nodemailer": "^6.9.4"
+  }
+}
